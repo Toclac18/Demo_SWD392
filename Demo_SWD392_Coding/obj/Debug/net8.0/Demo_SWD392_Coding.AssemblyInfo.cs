@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7046f336040c08f9ed4dadb7359b3768f73c7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c46bd979661d73e6813a16f1336bd50290d329c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
