@@ -1,8 +1,12 @@
+using Demo_SWD392_Coding.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<HospitalDbContext>(options =>
+          options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")).EnableSensitiveDataLogging());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

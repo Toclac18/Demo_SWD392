@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:views\\patients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:27:14.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:10:02.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Controllers\\PatientsController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAwJEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:43:56.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patients\\Details.cshtml",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Details.cshtml",
+              "RelativeToolTip": "Views\\Patients\\Details.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowCoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:46:54.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patients\\Edit.cshtml",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Patients\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T18:38:58.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T18:41:21.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:37:58.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
