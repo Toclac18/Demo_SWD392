@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Demo_SWD392_Coding.Models.Order>
+
+@{
+    ViewData["Title"] = "Order List";
+}
+
+<h2>Order List</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Medicine Code</th>
+            <th>Quantity</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            var highlightClass = TempData["NewOrderId"] != null && (int)TempData["NewOrderId"] == order.OrderId ? "table-success" : "";
+            <tr class="@highlightClass">
+                <td>@order.MedicineCode</td>
+                <td>@order.Quantity</td>
+                <td>@order.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" href="@Url.Action("PlaceOrder", "Order")">Place New Order</a>

@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Demo_SWD392_Coding.Models.Medicine>
+
+@{
+    ViewData["Title"] = "Medicine Inventory List";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Medicine Inventory List</h2>
+
+    <!-- Search Bar -->
+    <form method="get" class="mb-3">
+        <div class="input-group">
+            <input type="text" name="search" class="form-control" placeholder="Search for medicines..." value="@ViewData["SearchTerm"]" />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+
+    <!-- Show message if no medicines available -->
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            <strong>No medicine products in stock.</strong>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Medicine Code</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Stock</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var medicine in Model)
+                {
+                    <tr>
+                        <td>@medicine.MedicineCode</td>
+                        <td>@medicine.Name</td>
+                        <td class="text-center">
+                            @if (medicine.Stock > 0)
+                            {
+                                <span class="badge bg-success">@medicine.Stock</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Out of Stock</span>
+                            }
+                        </td>
+                        <td>
+                            <a href="@Url.Action("Details", "Medicine", new { id = medicine.MedicineCode })" class="btn btn-info btn-sm">
+                                <i class="bi bi-eye"></i> Details
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-controller="Order" asp-action="PlaceOrder" class="btn btn-primary">
+            Place Order for New Medicine
+        </a>
+
+    }
+</div>
+

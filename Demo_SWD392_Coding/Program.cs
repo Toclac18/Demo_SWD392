@@ -1,7 +1,21 @@
+using Demo_SWD392_Coding.Models;
+using Demo_SWD392_Coding.Repository;
+using Demo_SWD392_Coding.Repository.IRepository;
+using Demo_SWD392_Coding.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<HospitalDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<OrderService>();
+
 
 var app = builder.Build();
 
@@ -22,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Medicine}/{action=Index}/{id?}");
 
 app.Run();
