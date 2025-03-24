@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {}
+    "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {}
   },
   "projects": {
-    "D:\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {
+    "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
+        "projectUniqueName": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
         "projectName": "Demo_SWD392_Coding",
-        "projectPath": "D:\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Demo_SWD392\\Demo_SWD392_Coding\\obj\\",
+        "projectPath": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
+        "packagesPath": "C:\\Users\\Nguyen Kim Duong\\.nuget\\packages\\",
+        "outputPath": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nguyen Kim Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

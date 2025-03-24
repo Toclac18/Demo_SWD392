@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Demo_SWD392_Coding.Models.MedicalRecord>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Mã bệnh nhân
+            </th>
+            <th>
+                Tên bệnh nhân
+            </th>
+            <th>Giới tính</th>
+            <th>Số điện thoại</th>
+            <th>Ngày sinh</th>
+            <th>Địa chỉ</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.PatientCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.Fullname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.Dob)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientCodeNavigation.Address)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.RecordCode">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

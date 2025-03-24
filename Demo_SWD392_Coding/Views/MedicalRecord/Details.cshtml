@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Demo_SWD392_Coding.ViewModels.MedicalRecordDetailModel>
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Chi tiết các hồ sơ bệnh án</h1>
+
+<p>
+    <a asp-action="Create">Tạo mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Mã hồ sơ chi tiết
+            </th>
+            <th>
+                Tên bác sĩ
+            </th>
+            <th>
+                Tên bệnh nhân
+            </th>
+            <th>
+                Mã tiếp nhận
+            </th>
+            <th>Ngày tạo</th>
+            <th>Kết quả</th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecordDetailCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DoctorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AppointmentCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Result)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.RecordDetailCode">Sửa</a> |
+                    <a asp-action="Delete" asp-route-id="@item.RecordDetailCode">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
