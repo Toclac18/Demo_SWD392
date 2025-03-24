@@ -1,0 +1,38 @@
+@model Demo_SWD392_Coding.Models.MedicalRecord
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details - Medical Record</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-2xl">
+        <h2 class="text-2xl font-semibold text-gray-700 text-center mb-4">Medical Record Details</h2>
+        
+        <div class="border-t border-gray-300 pt-4">
+            <div class="grid grid-cols-2 gap-4">
+                <div class="font-semibold text-gray-600">Created At:</div>
+                <div class="text-gray-800">@Html.DisplayFor(model => model.CreatedAt)</div>
+
+                <div class="font-semibold text-gray-600">Patient Code:</div>
+                <div class="text-gray-800">@Html.DisplayFor(model => model.PatientCodeNavigation.PatientCode)</div>
+            </div>
+        </div>
+
+        <div class="mt-6 flex justify-between">
+            <a asp-action="Edit" asp-route-id="@Model?.RecordCode" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+                Edit
+            </a>
+            <a asp-action="Index" class="text-gray-600 hover:text-gray-800">Back to List</a>
+        </div>
+    </div>
+
+</body>
+</html>

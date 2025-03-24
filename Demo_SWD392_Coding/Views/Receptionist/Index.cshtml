@@ -1,0 +1,53 @@
+@model IEnumerable<Demo_SWD392_Coding.Models.MedicalRecord>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Records</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-4xl">
+        <h2 class="text-2xl font-semibold text-gray-700 text-center mb-4">Medical Records</h2>
+
+        <div class="mb-4 flex justify-end">
+            <a asp-action="Create" class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Create New</a>
+        </div>
+
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse bg-white shadow-md rounded-lg">
+                <thead>
+                    <tr class="bg-gray-200 text-gray-700">
+                        <th class="px-4 py-2 text-left">Created At</th>
+                        <th class="px-4 py-2 text-left">Patient Code</th>
+                        <th class="px-4 py-2 text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="border-b hover:bg-gray-100 transition">
+                            <td class="px-4 py-2">@Html.DisplayFor(modelItem => item.CreatedAt)</td>
+                            <td class="px-4 py-2">@Html.DisplayFor(modelItem => item.PatientCodeNavigation.PatientCode)</td>
+                            <td class="px-4 py-2 text-center space-x-2">
+                                <a asp-action="Edit" asp-route-id="@item.RecordCode" class="text-blue-500 hover:underline">Edit</a>
+                                <span>|</span>
+                                <a asp-action="Details" asp-route-id="@item.RecordCode" class="text-green-500 hover:underline">Details</a>
+                                <span>|</span>
+                                <a asp-action="Delete" asp-route-id="@item.RecordCode" class="text-red-500 hover:underline">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>

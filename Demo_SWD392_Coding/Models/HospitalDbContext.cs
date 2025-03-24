@@ -32,7 +32,6 @@ public partial class HospitalDbContext : DbContext
     public virtual DbSet<MedicineType> MedicineTypes { get; set; }
 
     public virtual DbSet<Patient> Patients { get; set; }
-
     public virtual DbSet<Receptionist> Receptionists { get; set; }
 
     public virtual DbSet<ScheduleDetail> ScheduleDetails { get; set; }
@@ -45,7 +44,7 @@ public partial class HospitalDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("server =(local); database = HospitalDB;uid=sa;pwd=123456;TrustServerCertificate=true");
+        => optionsBuilder.UseSqlServer("Data Source=(local);Initial Catalog=HospitalDB;Integrated Security=True;Trust Server Certificate=True ");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
