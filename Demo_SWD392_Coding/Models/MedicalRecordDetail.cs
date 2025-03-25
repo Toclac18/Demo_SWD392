@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Demo_SWD392_Coding.Models;
 
@@ -14,6 +15,8 @@ public partial class MedicalRecordDetail
     public string? DoctorCode { get; set; }
 
     public string? Result { get; set; }
+    [Column("createAt")]
+    public DateTime CreatedAt { get; set; }
 
     public virtual Appointment? AppointmentCodeNavigation { get; set; }
 
