@@ -51,6 +51,14 @@ namespace Demo_SWD392_Coding.Controllers
             }
 
             var result = await _patientService.updatePatientInfo(id, patient);
+            if (result != null) // Kiểm tra nếu update thành công
+            {
+                TempData["SuccessMessage"] = "Update successfully!";
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Update failed. Please try again.";
+            }
             return result;
         }
     }

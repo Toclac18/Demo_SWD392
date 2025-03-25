@@ -4,7 +4,19 @@
     ViewData["Title"] = "View Profile";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
 
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
 <h1>My Profile</h1>
 
 <div>
