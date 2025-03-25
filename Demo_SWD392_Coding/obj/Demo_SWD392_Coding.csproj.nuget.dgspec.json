@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {}
+    "D:\\kì 7\\SWD392\\demo2\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {}
   },
   "projects": {
-    "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {
+    "D:\\kì 7\\SWD392\\demo2\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
+        "projectUniqueName": "D:\\kì 7\\SWD392\\demo2\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
         "projectName": "Demo_SWD392_Coding",
-        "projectPath": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
-        "packagesPath": "C:\\Users\\Nguyen Kim Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\Software_engineering\\KY_7\\PRU_212\\Project_1\\Demo_SWD392\\Demo_SWD392_Coding\\obj\\",
+        "projectPath": "D:\\kì 7\\SWD392\\demo2\\Demo_SWD392\\Demo_SWD392_Coding\\Demo_SWD392_Coding.csproj",
+        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
+        "outputPath": "D:\\kì 7\\SWD392\\demo2\\Demo_SWD392\\Demo_SWD392_Coding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nguyen Kim Duong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -59,6 +60,16 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -72,6 +83,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
