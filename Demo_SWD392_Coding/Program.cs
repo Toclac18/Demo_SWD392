@@ -17,6 +17,7 @@ builder.Services.AddTransient<IMedicalRecordRepository, MedicalRecordRepository>
 
 var app = builder.Build();
 
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

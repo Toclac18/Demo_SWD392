@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9cb7a8332ba24ca7c596b89ef557bafe694d3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+624a6b1bf0c6cef8d932430f06070777fc75f378")]
 [assembly: System.Reflection.AssemblyProductAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Demo_SWD392_Coding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
