@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|d:\\3_swd392\\2_swd392\\demo_swd392\\demo_swd392_coding\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4C5B0F4-34EA-48EE-9CA9-A8C186F5771C}|Demo_SWD392_Coding.csproj|solutionrelative:controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T01:09:08.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IPatientService.cs",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Service\\IPatientService.cs",
               "RelativeDocumentMoniker": "Service\\IPatientService.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PatientService.cs",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Service\\PatientService.cs",
               "RelativeDocumentMoniker": "Service\\PatientService.cs",
@@ -87,20 +104,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PatientsController.cs",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatientsController.cs",
               "ToolTip": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "Controllers\\PatientsController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwD0AAAAaAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T17:43:56.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Details.cshtml",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\3_SWD392\\2_SWD392\\Demo_SWD392\\Demo_SWD392_Coding\\Views\\Patients\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Patients\\Edit.cshtml",
